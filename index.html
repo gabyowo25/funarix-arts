@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>fonarix-Arts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="logo">funarix</div>
+  <p class="subtitulo">Artista freelance</p>
+
+  <div class="accordion">
+
+<div class="galeria-grid">
+
+  <div class="obra">
+    <img src="imagen/dibujo_halloween.jpeg" alt="Dibujo halloween">
+    <div class="obra-texto">
+      <h4>Dibujo halloween</h4>
+      <p>Obra artística digital.</p>
+    </div>
+  </div>
+
+  <div class="obra">
+    <img src="imagen/payaso.jpeg" alt="Payaso">
+    <div class="obra-texto">
+      <h4>Payaso</h4>
+      <p>Obra artística digital.</p>
+    </div>
+  </div>
+
+  <div class="obra">
+    <img src="imagen/dino_trebol.jpeg" alt="Dino trebol">
+    <div class="obra-texto">
+      <h4>Dino trébol</h4>
+      <p>Obra artística digital.</p>
+    </div>
+  </div>
+
+  <div class="obra">
+    <img src="imagen/flores_mariposas.jpeg" alt="Flores mariposas">
+    <div class="obra-texto">
+      <h4>Flores y mariposas</h4>
+      <p>Obra artística digital.</p>
+    </div>
+  </div>
+
+  <div class="obra">
+    <img src="imagen/retrato_manga.jpeg" alt="Retrato manga">
+    <div class="obra-texto">
+      <h4>Retrato manga</h4>
+      <p>Obra artística digital.</p>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Términos -->
+    <div class="acordeon-item">
+      <div class="acordeon-titulo" onclick="toggleAcordeon(this)">
+        <i class="fa-solid fa-file-lines"></i>
+        <span>Términos y condiciones</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="acordeon-contenido">
+        <p>
+          • Obras personalizadas según las indicaciones del cliente.<br><br>
+          • Entrega estimada: 5 a 15 días hábiles, según complejidad.<br><br>
+          • No realizo contenido ofensivo o sexual.<br><br>
+          • Precios pueden variar según detalle, estilo y cantidad de elementos.<br><br>
+          • No hay reembolsos una vez comenzado el trabajo. Revisiones menores pueden incluirse.<br><br>
+          • El cliente puede usar la obra con crédito al artista (Loga).<br><br>
+          • Para uso comercial se requiere un acuerdo adicional.<br><br>
+          • Las obras pueden publicarse en mi portafolio salvo solicitud contraria.<br><br>
+          • Al encargar, aceptás estos términos.
+        </p>
+      </div>
+    </div>
+
+    <!-- Precios -->
+    <div class="acordeon-item">
+      <div class="acordeon-titulo" onclick="toggleAcordeon(this)">
+        <i class="fa-solid fa-dollar-sign"></i>
+        <span>Precios</span>
+        <i class="fa-solid fa-chevron-down"></i>
+      </div>
+      <div class="acordeon-contenido">
+        <p>
+          <strong>🎨 Retrato:</strong> desde <strong>USD 20</strong><br>
+          <strong>🏞️ Paisajes:</strong> desde <strong>USD 25</strong><br>
+          <strong>😄 Caricatura:</strong> desde <strong>USD 15</strong><br>
+          <strong>🌸 Anime:</strong> desde <strong>USD 20</strong><br>
+          <strong>🧙 Diseño de personaje:</strong> desde <strong>USD 30</strong><br><br>
+          Cada obra se cotiza según los detalles. Consultame sin compromiso 🙌
+        </p>
+      </div>
+    </div>
+
+<!-- Redes -->
+<div class="acordeon-item">
+  <div class="acordeon-titulo" onclick="toggleAcordeon(this)">
+    <i class="fa-solid fa-share-nodes"></i>
+    <span>Redes sociales</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+  <div class="acordeon-contenido">
+    <p>
+      Seguime para ver mis trabajos, procesos y comisiones abiertas:<br><br>
+      <strong>Instagram:</strong> <a href="https://www.instagram.com/fonarix.arts" target="_blank">@fonarix.arts</a><br>
+      <strong>X (Twitter):</strong> <a href="https://x.com/BFunarix?t=DG8fbjA7Jt30Cl2ivrDN5w&s=09" target="_blank">@BFunarix</a><br><br>
+      Tu apoyo en redes me ayuda un montón ✨
+    </p>
+  </div>
+</div>
+
+<!-- Contacto -->
+<div class="acordeon-item">
+  <div class="acordeon-titulo" onclick="toggleAcordeon(this)">
+    <i class="fa-solid fa-envelope"></i>
+    <span>Contacto</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </div>
+  <div class="acordeon-contenido">
+    <p>
+      ¿Tenés una idea? ¿Querés regalar arte? 🎨 Contame tu idea y te asesoro sin vueltas.<br><br>
+      <strong>Email:</strong> <a href="mailto:shigeokageyama222@gmail.com">shigeokageyama222@gmail.com</a><br>
+      <strong>Instagram:</strong> <a href="https://www.instagram.com/fonarix.arts" target="_blank">@fonarix.arts</a><br>
+      <strong>X (Twitter):</strong> <a href="https://x.com/BFunarix?t=DG8fbjA7Jt30Cl2ivrDN5w&s=09" target="_blank">@BFunarix</a><br><br>
+      Estoy para ayudarte a que tu visión se vuelva arte 💕
+    </p>
+  </div>
+</div>
+
+  </div>
+
+  <script>
+    function toggleAcordeon(elemento) {
+      const item = elemento.parentElement;
+      const estaActivo = item.classList.contains('activo');
+      document.querySelectorAll('.acordeon-item').forEach(i => i.classList.remove('activo'));
+      if (!estaActivo) item.classList.add('activo');
+    }
+  </script>
+
+</body>
+</html>
+
+
